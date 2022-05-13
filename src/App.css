@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+
+
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.v-hidden {
+  visibility: hidden;
+}
+
+.shadow {
+  box-shadow: 0px 3px 1px rgba(20, 40, 82, 0.08), 0px 24px 24px rgba(20, 40, 82, 0.04);
+}
+.activated-sidebar{
+    padding: 10px;
+    background: white;
+    color: #00c614;
+    width: 190px;
+    border-radius: 4px;
+   
+}
+.bg-neutral-2{
+  background-color: #F2F2F3;
+  border-radius: 8px;
+  padding: 8px 35px;
+  height: 40px;
+}
+
+.acivated-table{
+  padding: 10px;
+  background: white;
+  color: #00c614;
+ 
+  border-radius: 4px;
+}
+.padding-10 {
+  padding: 10px;
+}
+.padding-20{
+  padding: 20px;
+}
+
+.z-index-2{
+  z-index: 2;
+  position: relative;
+}
+
+.z-index-1 {
+  z-index: 1;
+}
+.header-algorizin{
+  text-align:left;
+  padding: 20px;
+}
+.height-100{
+  height: 100vh;
+}
+.v-visible{
+  visibility: visible;
+}
+
+.mobile-bar{
+  justify-content: space-around;
+  width: 100vw;
+  box-shadow: 0px -4px 2px rgba(0, 0, 0, 0.09);
+}
+
+.green-dot{
+  display: inline-block;
+  height: 8px;
+  width: 8px;
+  background-color: #44C776;
+  border-radius: 50%;
+}
+.red-dot{
+  display: inline-block;
+  height: 8px;
+  width: 8px;
+  background-color: #F52828;
+  border-radius: 50%;
+}
+.orange-dot{
+  display: inline-block;
+  height: 8px;
+  width: 8px;
+  background-color: #F58A28;
+  border-radius: 50%;
+}
+
+/* .display-only-desktop {
+  display: block;
+} */
+.tablebutton{
+  padding: 5px;
+
+  border-radius: 4px;
+  margin: 0 5px;
+}
+.table-footer{
+  justify-content: space-between;
+}
+.table-footer-1{
+  justify-content: flex-end;
+}
+.align-center{
+  align-items: center;
+}
